@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Слайдер для блога</title>
+</head>
+
+<body>
+  <section id="cars">
+    <div class="car-container">
+      <h1>Блог автомобилей</h1>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide post">
+            <img class="post-img"
+              src="https://img.autogidas.lt/4_15_240843247/ford-focus-ecoboost-vokiska-universalas-2016.jpg"
+              alt="cars" />
+
+            <div class="post-body">
+              <img class="post-avatar"
+                src="https://img.freepik.com/free-photo/caucasian-young-man-s-close-up-shot-on-studio_155003-19012.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699142400&semt=ais"
+                alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name">Ford Focus</h2>
+                <p class="post-author">Александр Тверской</p>
+              </div>
+
+              <div class="post-actions">
+                <a class="post-like" href="javascript:void(0)"><i class="fas fa-heart"></i></a>
+                <button class="post-actions-controller" data-target="post1" aria-controls="post-actions-content"
+                  aria-expanded="false">
+                  <i class="fa-solid fa-ellipsis fa-2xl"></i>
+                </button>
+                <div class="post-actions-content" id="post1" data-visible="false" aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Добавить в избраное</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Посмотреть профиль</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>Подписаться</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide post">
+            <img class="post-img" src="https://neva-cars.ru/wp-content/uploads/2021/04/Porshe-panamera-neva-cars-5.jpg"
+              alt="cars" />
+
+            <div class="post-body">
+              <img class="post-avatar"
+                src="https://flomaster.top/uploads/posts/2022-06/1655600441_3-flomaster-club-p-portret-v-fas-krasivo-4.jpg"
+                alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name">Porsche Panamera</h2>
+                <p class="post-author">Ангелина Волченко</p>
+              </div>
+
+              <div class="post-actions">
+                <a class="post-like" href="javascript:void(0)"><i class="fas fa-heart"></i></a>
+                <button class="post-actions-controller" data-target="post2" aria-controls="post-actions-content"
+                  aria-expanded="false">
+                  <i class="fa-solid fa-ellipsis fa-2xl"></i>
+                </button>
+                <div class="post-actions-content" id="post2" data-visible="false" aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Добавить в избраное</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Посмотреть профиль</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>Подписаться</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide post">
+            <img class="post-img"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIUkbUVxSibe64e3ujKe0di6ZDJRQotvkBas_qCHSVQyCB58bKzz4BYrM7ScMpNt-O8aM&usqp=CAU"
+              alt="cars" />
+
+            <div class="post-body">
+              <img class="post-avatar" src="https://vibirai.ru/image/964471.jpg" alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name">Mazda CX-7</h2>
+                <p class="post-author">Александр Бариев</p>
+              </div>
+
+              <div class="post-actions">
+                <a class="post-like" href="javascript:void(0)"><i class="fas fa-heart"></i></a>
+                <button class="post-actions-controller" data-target="post3" aria-controls="post-actions-content"
+                  aria-expanded="false">
+                  <i class="fa-solid fa-ellipsis fa-2xl"></i>
+                </button>
+                <div class="post-actions-content" id="post3" data-visible="false" aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Добавить в избраное</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Посмотреть профиль</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>Подписаться</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide post">
+            <img class="post-img"
+              src="https://avatars.mds.yandex.net/get-autoru-vos/10900358/7ffa561772470d245c1f0efb9e3213dd/456x342n"
+              alt="cars" />
+
+            <div class="post-body">
+              <img class="post-avatar" src="https://i.pinimg.com/236x/0d/ab/f0/0dabf0b211855ee1a4564f74b0fe9263.jpg"
+                alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name">Mini Cooper S</h2>
+                <p class="post-author">Ирина Симонова</p>
+              </div>
+
+              <div class="post-actions">
+                <a class="post-like" href="javascript:void(0)"><i class="fas fa-heart"></i></a>
+                <button class="post-actions-controller" data-target="post4" aria-controls="post-actions-content"
+                  aria-expanded="false">
+                  <i class="fa-solid fa-ellipsis fa-2xl"></i>
+                </button>
+                <div class="post-actions-content" id="post4" data-visible="false" aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Добавить в избраное</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Посмотреть профиль</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>Подписаться</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide post">
+            <img class="post-img" src="https://s.auto.drom.ru/i24259/r/photos/1425756/big_1565250.jpg" alt="cars" />
+
+            <div class="post-body">
+              <img class="post-avatar" src="https://vibirai.ru/image/964471.jpg" alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name">Renault Duster</h2>
+                <p class="post-author">Юрий Гинзбург</p>
+              </div>
+
+              <div class="post-actions">
+                <a class="post-like" href="javascript:void(0)"><i class="fas fa-heart"></i></a>
+                <button class="post-actions-controller" data-target="post5" aria-controls="post-actions-content"
+                  aria-expanded="false">
+                  <i class="fa-solid fa-ellipsis fa-2xl"></i>
+                </button>
+                <div class="post-actions-content" id="post5" data-visible="false" aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Добавить в избраное</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Посмотреть профиль</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>Подписаться</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide post">
+            <img class="post-img"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL-LlHFaR8TxKjH4TcHr7bWCmMAnazW_LHF7vDAQJgl0h0o0X90C-hQ4jXjB9xEIde3qM&usqp=CAU"
+              alt="cars" />
+
+            <div class="post-body">
+              <img class="post-avatar" src="https://vibirai.ru/image/964471.jpg" alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name">BMW 3-series</h2>
+                <p class="post-author">София Чернавская</p>
+              </div>
+
+              <div class="post-actions">
+                <a class="post-like" href="javascript:void(0)"><i class="fas fa-heart"></i></a>
+                <button class="post-actions-controller" data-target="post6" aria-controls="post-actions-content"
+                  aria-expanded="false">
+                  <i class="fa-solid fa-ellipsis fa-2xl"></i>
+                </button>
+                <div class="post-actions-content" id="post6" data-visible="false" aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Добавить в избраное</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Посмотреть профиль</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>Подписаться</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+
+</html>
